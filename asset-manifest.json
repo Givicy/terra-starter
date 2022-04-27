@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/terra-starter/static/css/main.069bc5ac.chunk.css",
+    "main.js": "/terra-starter/static/js/main.cf058b35.chunk.js",
+    "main.js.map": "/terra-starter/static/js/main.cf058b35.chunk.js.map",
+    "runtime-main.js": "/terra-starter/static/js/runtime-main.25ed5682.js",
+    "runtime-main.js.map": "/terra-starter/static/js/runtime-main.25ed5682.js.map",
+    "static/js/2.ec2c11bd.chunk.js": "/terra-starter/static/js/2.ec2c11bd.chunk.js",
+    "static/js/2.ec2c11bd.chunk.js.map": "/terra-starter/static/js/2.ec2c11bd.chunk.js.map",
+    "index.html": "/terra-starter/index.html",
+    "static/css/main.069bc5ac.chunk.css.map": "/terra-starter/static/css/main.069bc5ac.chunk.css.map",
+    "static/js/2.ec2c11bd.chunk.js.LICENSE.txt": "/terra-starter/static/js/2.ec2c11bd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/terra-starter/static/media/PressStart2P-Regular.21503c6a.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25ed5682.js",
+    "static/js/2.ec2c11bd.chunk.js",
+    "static/css/main.069bc5ac.chunk.css",
+    "static/js/main.cf058b35.chunk.js"
+  ]
+}
