@@ -42,7 +42,7 @@ const Play = () => {
       // Once the transaction is confirmed, we let the user know and navigate to the leaderboard
       alert('Score submitted!');
       setLoading(false);
-      window.location.href = '/terra-starter/leaderboard';
+      window.location.href = window.location.protocol + '//' + window.location.host + '/terra-starter';
     }
   };
 
