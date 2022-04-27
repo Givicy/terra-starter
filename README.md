@@ -1,3 +1,5 @@
+[![pages-build-deployment](https://github.com/Givicy/terra-starter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Givicy/terra-starter/actions/workflows/pages/pages-build-deployment)
+
 # buildspace Web3 app on Terra project
 
 ### **Welcome 👋**
