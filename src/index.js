@@ -20,10 +20,10 @@ getChainOptions().then((chainOptions) => {
         <div className="App-header">
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<App />} />
-              <Route path="/play" element={<Play />} />
-              <Route path="/leaderboard" element={<Leaderboard />} />
-              <Route path="/guide" element={<Guide />} />
+              <Route path="/terra-starter/" element={<App />} />
+              <Route path="/terra-starter/play" element={<Play />} />
+              <Route path="/terra-starter/leaderboard" element={<Leaderboard />} />
+              <Route path="/terra-starter/guide" element={<Guide />} />
             </Routes>
           </BrowserRouter>
 
@@ -31,7 +31,7 @@ getChainOptions().then((chainOptions) => {
             <img
               alt="Twitter Logo"
               className="twitter-logo"
-              src="/twitter-logo.svg"
+              src="/terra-starter/twitter-logo.svg"
             />
             <a
               className="footer-text"

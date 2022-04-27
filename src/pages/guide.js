@@ -4,7 +4,7 @@ const Guide = () => {
   return (
     <main className="App">
       <header>
-        <Link to="/" className="home-link">
+        <Link to="/terra-starter" className="home-link">
           <div className="header-titles">
             <h1>⚔ Goblin War ⚔️</h1>
             <p>Only you can save us from Goblin town</p>

@@ -42,13 +42,13 @@ const Play = () => {
       // Once the transaction is confirmed, we let the user know and navigate to the leaderboard
       alert('Score submitted!');
       setLoading(false);
-      window.location.href = '/leaderboard';
+      window.location.href = '/terra-starter/leaderboard';
     }
   };
 
   const handleClick = () => {
     // OGs will know this :)
-    let audio = new Audio("/Zergling_explodes.mp3");
+    let audio = new Audio("/terra-starter/Zergling_explodes.mp3");
     
     // Don't let it get too loud!
     audio.volume = 0.2;
@@ -80,7 +80,7 @@ const Play = () => {
       ) : (
         <div className="game-container">
           {/* CHANGE THIS IMAGE! It's loaded from the public folder. */}
-          <img src={"cute-zergling.png"} id="target" alt="Target" style={{ ...targetPosition }} onClick={handleClick}/>
+          <img src={"/terra-starter/cute-zergling.png"} id="target" alt="Target" style={{ ...targetPosition }} onClick={handleClick}/>
           <img src="Marine.png" id="marine-img" alt="Marine" />
         </div>
       )}
